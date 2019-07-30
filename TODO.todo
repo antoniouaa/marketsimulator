@@ -1,0 +1,11 @@
+-[x] create the basic four classes
+-[x] populate marketplace class with agents and stocks
+-[x] create method for updating stock prices
+-[x] update the readme
+-[x] update agents to have stocks
+-[x] create company class
+-[x] create method for volatility of stock
+-[x] create method for earnings per stock of company
+-[] create interaction between agents
+-[] create method for assessing portfolio
+-[] outline simple gui
