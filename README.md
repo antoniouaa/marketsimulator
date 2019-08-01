@@ -14,36 +14,21 @@ The code uses four main classes:
 - Company class
 - MarketPlace class
 
-### Agent class
-The Agent class is an object modelled after stock traders in the stock exchange. An object of type Agent contains all the information 
-a stock trader would require to exist and complete operations in the marketplace, albeit simplified. In reality, stock traders don't 
-directly buy or sell stocks from one another but through the employ of a stock broker who handles the transaction in their stead.
-
-## Stock class
-The Stock class is an object modelled after actual stocks published by companies in stock markets. While simplified for practical purposes,
-these objects represent common stock which exist in the hands of stock traders and are sold and bought in a stock exchange. In reality there are 
-many different types of securities passed around in a marketplace, however this project focuses on equity securities, the simplest of which is 
-the common stock.
-
-## Company class
-The Company class is an object modelled after companies in the stock exchange. A company object does not technically interact with any agent in the
-marketplace, but merely holds certain variables necessary to determining indices related to the company's stock.
-
-## Marketplace class
-The MarketPlace class serves as the environment in which the Agents, Stocks, Companies and their interactions exist and operate.
-Its main purpose is to initialise instances of each of the main class objects and through performing updating operations, 
-enables for the definition of a time dimension.
-
 ## Getting Started (Software Based)
 
 ### Prerequisites
 The final product will be in the form of an executable file which requires an appropriate runtime environment:
-* [Java SE RunTime Environment 8](https://www.oracle.com/technetwork/java/javase/downloads/index.html) 
+* [Java SE RunTime Environment 8](https://www.oracle.com/technetwork/java/javase/downloads/index.html)
+
+The graphing library JFreeChart is a requisite for the project. You can download it 
 
 ### Installing
-To compile the code on your own, simply download the MarketSimulator folder and from outside it use the following commands in a terminal: 
+To compile the code on your own, simply clone the MarketSimulator folder and use the following commands in a terminal: 
 
 ```
+git clone https://github.com/antoniouaa/marketsimulator
+cd marketsimulator
+
 javac MarketSimulator/*.java
 java MarketSimulator.Main
 ```
